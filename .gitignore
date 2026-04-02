@@ -1,0 +1,113 @@
+# 🚫 Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.Python
+env/
+venv/
+.venv
+ENV/
+VENV/
+
+# 🚫 Virtual Environment (Other Package Managers)
+.env
+.venv.local
+.venv.*.local
+pipenv.lock
+poetry.lock
+
+# 🚫 IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# 🚫 Jupyter & Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# 🚫 Logs
+*.log
+*.logs
+debug.log
+
+# 🚫 Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
+
+# 🚫 OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# 🚫 Package Manager
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# 🚫 Model Backups (keep only best_model.pkl)
+*.pkl.old
+*.pkl.bak
+*.pkl.backup
+model_old/
+model_backup/
+
+# 🚫 Large Data Files (if > 100MB)
+data/*.csv
+data/*.parquet
+data/*.xlsx
+!data/credit_data.csv
+
+# 🚫 API Keys & Secrets
+.env.local
+.env.*.local
+*.key
+*.pem
+kaggle.json
+
+# 🚫 Node modules (if using frontend tooling)
+node_modules/
+npm-debug.log
+yarn-lock.json
+
+# 🚫 Flask & Gunicorn
+instance/
+.webassets-cache
+
+# 🚫 Cache directories
+.cache/
+*.cache
+
+# 🚫 macOS
+.AppleDouble
+.LSOverride
+._*
+
+# 🚫 Windows
+[Dd]esktop.ini
+ehthumbs.db
